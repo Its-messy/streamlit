@@ -7,7 +7,7 @@ import joblib
 
 #Loading the  pre-trained model
 
-model = joblib.load('K-Nearest Neighbors.pkl')
+model = joblib.load('KNeighborsClassifiermodel.pkl')
 
 #Loading Display and Accuracy
 with open('accuracy.txt', 'r') as file:
